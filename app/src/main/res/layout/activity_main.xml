@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_centerInParent="true">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Welcome"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:textSize="21sp"
+    />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Ravi Tamada"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="admin@androidhive.info"
+        android:gravity="center"
+        android:layout_margin="8dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:background="#ef5350"
+        android:layout_margin="16dp"
+        android:textColor="#ffffff"
+        />
+   </LinearLayout>
+</RelativeLayout>
